@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/scholarships
+Content-Type: application/json
+
+{
+  "criteria": [
+    ["", "Intellectual Merit", "Broader Impacts"],
+    ["Intellectual Merit", 1, 1],
+    ["Broader Impacts", 2, 1]
+  ],
+  "alternatives": [
+    ["", "Scholarship A", "Scholarship B", "Scholarship C"],
+    ["Cost", 3, 2, 1],
+    ["Prestige", 1, 3, 2],
+    ["Eligibility", 2, 1, 3]
+  ]
+}
